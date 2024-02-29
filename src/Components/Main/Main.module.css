@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Neue;
+  src: url(../../Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayLight.ttf);
+}
+@font-face {
+  font-family: Refolle;
+  src: url(../../Fonts/refolle/REFOLLE.ttf);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+}
+.textMain {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 90vh;
+}
+.textMain h2 {
+  font-size: 5rem;
+  font-family: Refolle;
+  width: 90%;
+}
+.imgTexMain {
+  width: 17%;
+}
+.textMain p {
+  font-family: Neue;
+  font-size: 1.3rem;
+  width: 80%;
+  color: #5c5555;
+}
+.textMain button {
+  width: 12vw;
+  height: 8vh;
+  text-align: center;
+  border: none;
+  background-color: #6365ef;
+  color: white;
+  font-family: ivyMode;
+}
+.imgMain {
+  height: 90vh;
+}
+.imgMainOne {
+  position: relative;
+}
+.imgMainTwo {
+  position: relative;
+  bottom: 14vh;
+  right: 5%;
+  width: 24%;
+}

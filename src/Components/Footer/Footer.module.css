@@ -1,0 +1,60 @@
+@font-face {
+  font-family: NeueLight;
+  src: url(../../Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayLight.ttf);
+}
+@font-face {
+  font-family: NeueBold;
+  src: url(../../Fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBold.ttf);
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.textFooter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+span h2 {
+  color: #6365ef;
+  font-size: 2.5rem;
+}
+span h3 {
+  font-size: 2rem;
+}
+.textFooter img {
+  position: relative;
+  bottom: 10vh;
+  width: 20%;
+  height: 40vh;
+}
+.textFooterTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 45%;
+  height: 25vh;
+}
+.textFooterTwo h4 {
+  font-family: NeueLight;
+  color: #5c5555;
+  font-size: 1.3rem;
+  width: 80%;
+  line-height: 4.5vh;
+  font-weight: 350;
+}
+.textFooterTwo p {
+  background-color: none;
+  border: none;
+  color: #6365ef;
+  width: 15%;
+  font-family: NeueBold;
+  font-weight: 700;
+}
